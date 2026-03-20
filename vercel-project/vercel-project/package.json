@@ -1,0 +1,9 @@
+{
+  "name": "sangkwon-ai-analyzer",
+  "version": "3.0.0",
+  "description": "소상공인 365 상권 AI 분석 리포트",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
