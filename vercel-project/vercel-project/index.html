@@ -562,7 +562,7 @@ async function fetchPublicAPI(sido, sigungu, catCode){
   const params = {
     endpoint: 'storeListInAdmdistrictCode',
     pageNo: 1, numOfRows: 1000,
-    sido_nm: sido, sgg_nm: sigungu,
+    sidoNm: sido, sggNm: sigungu,
     ...(catCode && CAT_MAP[catCode] ? {indsLclsCd: CAT_MAP[catCode]} : {})
   };
 
